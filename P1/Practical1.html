@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Josefin+Sans:wght@500&display=swap');
+    </style>
+    <style>
+        body {
+            font-family: 'Arvo', serif;
+            text-align: justify;
+            background: linear-gradient(to right, rgb(32, 146, 184),lightblue, white);
+        }
+
+        .right {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .name {
+
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .name h1 {
+            color: darkblue;
+            letter-spacing: 4px;
+        }
+
+        .name h2 {
+            color: rgb(255, 142, 50);
+            letter-spacing: 2px;
+        }
+
+        .container {
+            display: grid;
+            grid-gap: 1.5rem;
+            grid-template-columns: 1fr 2fr;
+            grid-row: 1 / span 2;
+        }
+
+        .item2 {
+            display: flex;
+            align-items: center;
+        }
+
+        .item3 {
+            background-color: rgb(255, 142, 50);
+            color: white;
+            padding: 30px;
+            margin: 0px 15px;
+            border-radius: 200px 200px 0px 0px;
+            height: 100%;
+        }
+
+        .item3 img {
+            border: 7px solid rgb(32, 146, 184);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            width: 150px;
+            height: 150px;
+            margin-left: 90px;
+        }
+
+        .contacts img {
+            border: none;
+            width: 30px;
+            height: 25px;
+            margin: 0px;
+            font-style: 'Arvo', serif;
+            color: white;
+        }
+
+        .contacts div {
+            display: flex;
+            gap: 25px;
+            margin-bottom: 15px;
+            font-size: 17px;
+        }
+
+        .contacts a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .contacts a:hover{
+            color: pink;
+        }
+
+        .head1 {
+            color: darkblue;
+        }
+
+        .head2 {
+            color: rgb(255, 142, 50);
+        }
+
+        .item4 {
+
+            color: darkblue;
+        }
+        
+
+        .box{
+            background-color: gray;
+            width:30%;
+            border-radius: 10px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+        }
+        .text{
+            color: white;
+            text-align: left;
+            padding-top: 2%;
+            padding-left: 15px;
+        
+        }
+        .html{
+            width: 70%;
+            background-color: darkblue;
+            height: 80%;  
+        }
+        .css{
+            width: 60%;
+            background-color: darkblue;
+            height: 80%;  
+        }
+        .javascript{
+            width: 50%;
+            background-color: darkblue;
+            height: 80%;  
+        }
+        .mongodb{
+            width: 60%;
+            background-color: darkblue;
+            height: 80%;  
+        }
+        .python{
+            width: 40%;
+            background-color: darkblue;
+            height: 80%;  
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+
+    </div>
+    <div class="container">
+        <div class="left">
+            <div class="item1">
+            </div>
+            <div class="item3">
+                <img src="./IMG20220305163544.jpg" alt="" class="Image">
+                <div class="profile">
+                    <h3 class="head1">OBJECTIVE</h3>
+                    <P>I am Student with passions and ambitions to become a fullstack web developer as industry
+                        demanded.I have solid background in my educational career and now I want to enlarge it with my
+                        hands on experience to the professional career.</P>
+
+                </div>
+                <div class="contacts">
+                    <h3 class="head1">CONTACTS</h3>
+                    <div>
+                        <img src="https://img.icons8.com/external-kmg-design-glyph-kmg-design/256/external-telephone-interface-essentials-kmg-design-glyph-kmg-design-2.png"
+                            alt="">6356772249
+                    </div>
+                    <div>
+                        <img src="https://img.icons8.com/metro/256/linkedin.png" alt="">
+                        <a href="https://www.linkedin.com/in/mitesh-makvana-902167235" target="_blank">linkedIn</a>
+                    </div>
+                    <div>
+                        <img src="https://www.citypng.com/public/uploads/preview/png-mail-email-address-round-outline-white-icon-11637079490wb440m0iml.png" alt="">
+                        <a href="mailto: mitesh34ppsv@gmail.com">E-mail</a>
+
+                    </div>
+                </div>
+                <div class="references">
+                    <h3 class="head1">ACHIEVEMENTS</h3>
+                    <P>Cetrified by HackerRank for Problem Solving (Basics)</P>
+                    <P>Cetrified by Sololearn for Python for Data Science</P>
+                    <P>Cetrified by Sololearn for Python for Data Structures</P>
+                    <P>Cetrified by Sololearn for Java</P>
+                 </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="item2">
+                <div class="name">
+                    <h1>MAKVANA MITESH</h1>
+                    <h2>Computer Engineer</h2>
+                </div>
+            </div>
+            <div class="item4">
+                <div class="education">
+                    <h3 class="head2">EDUCATION</h3>
+                    <ul>
+                        <li>
+                            <strong>Graduation | From 2020</strong>
+                            <p>Right now I am student of Engineering at Government Engineering College, Gandhinagar to
+                                pursuing my ongoing <b>Computer Engineering.</b> I have <b>8.87</b> SPI till our second
+                                year completion.</p>
+                        </li>
+                        <li>
+                            <strong> Higher Secondary Education | 2018-2020</strong>
+                            <p>To accomplish my higher study I selected science stream at one of the best school of our
+                                area and Surat named <b>P. P. Savani Vidhyabhavan</b>.This school helped me a lot to
+                                passed out with <b>82.92%</b> in my HSC board examination.</p>
+                        </li>
+                        <li>
+                            <strong>Primary & Secondary Education | 2007-2018</strong>
+                            <p>I am very grateful to the <b>Arpan Vidhya Sankul </b> that planted the seeds of good
+                                thinking,values and bright future in me from my childhood. By getting helped from the
+                                teachers I able to secured <b>90.67%</b> with A1 grade in my SSC examination. </p>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="employment">
+                   
+                </div>
+                <div class="skills">
+                    <h3 class="head2">SKILLS</h3>
+ 
+                   <div class="box">
+                    <div class="text html">HTML</div>
+                   </div>
+                   <p></p>
+                   <div class="box">
+                    <div class="text css">CSS</div>
+                   </div>
+                   <p></p>
+                   <div class="box">
+                    <div class="text javascript">JavaScript</div>
+                   </div>
+                   <p></p>
+                   <div class="box">
+                    <div class="text mongodb">MongoDB</div>
+                   </div>
+                   <p></p>
+                   <div class="box">
+                    <div class="text python">Python</div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
